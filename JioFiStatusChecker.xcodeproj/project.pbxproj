@@ -11,6 +11,9 @@
 		DE33324824F595830049B408 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE33324724F595830049B408 /* ViewController.swift */; };
 		DE33324A24F595850049B408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE33324924F595850049B408 /* Assets.xcassets */; };
 		DE33324D24F595850049B408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE33324B24F595850049B408 /* Main.storyboard */; };
+		DE33325724F596AA0049B408 /* DisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE33325524F596AA0049B408 /* DisplayViewController.swift */; };
+		DE33325824F596AA0049B408 /* DisplayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE33325624F596AA0049B408 /* DisplayViewController.xib */; };
+		DE33325A24F598250049B408 /* Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE33325924F598250049B408 /* Display.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		DE33324C24F595850049B408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE33324E24F595850049B408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE33324F24F595850049B408 /* JioFiStatusChecker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JioFiStatusChecker.entitlements; sourceTree = "<group>"; };
+		DE33325524F596AA0049B408 /* DisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DisplayViewController.swift; path = Display/DisplayViewController.swift; sourceTree = "<group>"; };
+		DE33325624F596AA0049B408 /* DisplayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DisplayViewController.xib; path = Display/DisplayViewController.xib; sourceTree = "<group>"; };
+		DE33325924F598250049B408 /* Display.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Display.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 			isa = PBXGroup;
 			children = (
 				DE33324524F595830049B408 /* AppDelegate.swift */,
+				DE33325924F598250049B408 /* Display.swift */,
+				DE33325524F596AA0049B408 /* DisplayViewController.swift */,
+				DE33325624F596AA0049B408 /* DisplayViewController.xib */,
 				DE33324724F595830049B408 /* ViewController.swift */,
 				DE33324924F595850049B408 /* Assets.xcassets */,
 				DE33324B24F595850049B408 /* Main.storyboard */,
@@ -122,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE33324A24F595850049B408 /* Assets.xcassets in Resources */,
+				DE33325824F596AA0049B408 /* DisplayViewController.xib in Resources */,
 				DE33324D24F595850049B408 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE33324824F595830049B408 /* ViewController.swift in Sources */,
+				DE33325724F596AA0049B408 /* DisplayViewController.swift in Sources */,
+				DE33325A24F598250049B408 /* Display.swift in Sources */,
 				DE33324624F595830049B408 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
